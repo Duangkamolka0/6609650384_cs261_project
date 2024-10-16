@@ -1,47 +1,62 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #e3a8f9, #1d2b64);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .login-container {
-    width: 300px;
-    margin: 100px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    padding: 30px;
+    background: linear-gradient(135deg, #000000, #3533cd); /* ไล่สีเข้มด้านใน */
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 label {
     display: block;
+    text-align: left;
     margin: 10px 0 5px;
+    font-weight: bold;
+    color: #ffffff;
 }
 
-input {
+input, select {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    padding: 12px;
+    background-color: #ff5722;
     border: none;
-    color: #fff;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #e64a19;
 }
 
 #message {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 15px;
+    color: #fff700;
 }
