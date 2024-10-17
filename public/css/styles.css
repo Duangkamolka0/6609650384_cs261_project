@@ -16,11 +16,14 @@ body {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
+img {
+    background-color: transparent; /* หรือใช้สีเดียวกับพื้นหลังของหน้าเว็บ */
+}
 
 h1 {
     margin-bottom: 20px;
     font-weight: bold;
-    color: #fd0008;
+    color: #ffffff;
 }
 
 label {
